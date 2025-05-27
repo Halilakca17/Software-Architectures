@@ -1,0 +1,84 @@
+Cümle: Hello everyone, thank you guys for coming to our weekly student success meeting.
+Duygu: optimism, Güven: 0.30
+
+Cümle: And let's just get started.
+Duygu: neutral, Güven: 0.00
+
+Cümle: So I have our list of chronically absent students here and I've been noticing a troubling trend.
+Duygu: neutral, Güven: 0.00
+
+Cümle: A lot of students are skipping on Fridays.
+Duygu: neutral, Güven: 0.00
+
+Cümle: Does anyone have any idea what's going on?
+Duygu: neutral, Güven: 0.00
+
+Cümle: I've heard some of my mentees talking about how it's really hard to get out of bed on Fridays.
+Duygu: sadness, Güven: 0.29
+
+Cümle: It might be good if we did something like a pancake breakfast to encourage them to come.
+Duygu: joy, Güven: 0.70
+
+Cümle: I think that's a great idea.
+Duygu: joy, Güven: 0.80
+
+Cümle: Let's try that next week.
+Duygu: neutral, Güven: 0.00
+
+Cümle: It might also be because a lot of students have been getting sick now that it's getting colder outside.
+Duygu: sadness, Güven: 0.36
+
+Cümle: I've had a number of students come by my office with symptoms like sniffling and coughing.
+Duygu: neutral, Güven: 0.00
+
+Cümle: We should put up posters with tips for not getting sick since it's almost flu season.
+Duygu: anger, Güven: 0.71
+
+Cümle: Like, you know, wash your hands after the bathroom.
+Duygu: neutral, Güven: 0.00
+
+Cümle: Stuff like that.
+Duygu: neutral, Güven: 0.00
+
+Cümle: I think that's a good idea and it'll be a good reminder for the teachers as well.
+Duygu: joy, Güven: 0.70
+
+Cümle: So one other thing I wanted to talk about, there's a student I've noticed here, John Smith.
+Duygu: sadness, Güven: 0.12
+
+Cümle: He's missed seven days already and it's only November.
+Duygu: neutral, Güven: 0.00
+
+Cümle: Does anyone have an idea what's going on with him?
+Duygu: neutral, Güven: 0.00
+
+Cümle: I might be able to fill in the gaps there.
+Duygu: optimism, Güven: 0.50
+
+Cümle: I talked to John today and he's really stressed out.
+Duygu: optimism, Güven: 0.20
+
+Cümle: He's been dealing with helping his parents take care of his younger siblings during the day.
+Duygu: neutral, Güven: 0.00
+
+Cümle: It might actually be a good idea if he spoke to the guidance counselor a little bit.
+Duygu: optimism, Güven: 0.26
+
+Cümle: I can talk to John today if you want to send him to my office after you meet with him.
+Duygu: neutral, Güven: 0.00
+
+Cümle: It's a lot to deal with for middle schooler.
+Duygu: neutral, Güven: 0.00
+
+Cümle: Great thanks and I can help out with the family's childcare needs.
+Duygu: optimism, Güven: 0.50
+
+Cümle: I'll look for some free or low-cost resources in the community to share with John and he can share them with his family.
+Duygu: optimism, Güven: 0.40
+
+Cümle: Great, well some really good ideas here today.
+Duygu: joy, Güven: 0.75
+
+Cümle: Thanks for coming and if no one has anything else I think we can wrap up.
+Duygu: optimism, Güven: 0.20
+
