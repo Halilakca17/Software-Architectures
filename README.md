@@ -3,34 +3,49 @@ Video Analysis Web Application
 A comprehensive web application that analyzes video files to extract audio emotions, text sentiment, and other key insights using advanced AI models and a Flask-based interface.
 🎯 Project Overview
 This project provides a complete video analysis solution that combines modern web technologies with advanced AI models to derive valuable insights from video content. The application features a user-friendly interface, powerful analysis capabilities, and scalable architecture.
-Source Code: github.com/Halilakca17/Software-Architectures
+
+
+
 ✨ Key Features
+
 🎥 Video Analysis Pipeline
 
 Audio Extraction: Extracts and normalizes audio from video files
+
 Speech-to-Text: Utilizes OpenAI Whisper for accurate transcription
+
 Text Summarization: Implements T5 model with chunk-based processing
+
 Sentiment Analysis: Uses BERTweet model for emotion detection (Joy, Optimism, Anger, Sadness, Neutral)
+
 Audio Emotion Analysis: HuBERT model for emotion transition analysis
 
 🌐 Web Interface
 
 File Upload: Drag-and-drop support for multiple video formats
+
 Real-time Tracking: Live status updates and progress visualization
+
 Interactive Results: Charts and detailed analysis reports
+
 Responsive Design: Modern UI/UX with Bootstrap integration
 
 🔒 Security & Performance
 
 File validation and secure handling
+
 Asynchronous processing with threading
+
 GPU support for accelerated processing
+
 Model caching and batch processing optimization
 
 🛠️ Technical Stack
+
 Backend
 
 Flask 2.3.3 
+
 Python 3.10+ 
 
 Frontend
@@ -40,16 +55,24 @@ HTML5, CSS3
 AI/ML Libraries
 
 PyTorch 2.0.0+ - Deep learning framework
+
 Transformers 4.30.0+ - NLP models
+
 OpenAI Whisper 20231117 - Speech-to-text
+
 Librosa 0.10.0+ - Audio processing
+
 TextBlob 0.17.1+ - Text processing
+
 
 Data Processing
 
 NumPy 1.26.4+ - Numerical operations
+
 Pandas 2.0.0+ - Data analysis
+
 Matplotlib 3.7.0+ - Data visualization
+
 MoviePy 1.0.3+ - Video processing
 
 📁 Project Structure
