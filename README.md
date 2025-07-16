@@ -97,17 +97,14 @@ Optional: CUDA-enabled GPU for acceleration<br>
 Installation Steps<br>
 1️⃣ Clone the repository<br>
 
-bash<br>
-Kopyala
-Düzenle
 git clone https://github.com/Halilakca17/Software-Architectures.git<br>
 cd Software-Architectures<br>
-```<br>
+
 2️⃣ Create virtual environment<br>
-```bash<br>
+
 python -m venv venv<br>
 source venv/bin/activate  # On Windows: venv\Scripts\activate<br>
-```<br>
+
 3️⃣ Install dependencies<br>
 ```bash<br>
 pip install -r requirements.txt<br>
@@ -178,7 +175,7 @@ graph TD<br>
     G --> H[Audio Emotion Analysis - HuBERT]<br>
     H --> I[Results Visualization]<br>
     I --> J[Storage]<br>
-```<br>
+
 
 🚧 **Future Enhancements**<br>
 **Planned Features**<br>
@@ -199,9 +196,9 @@ graph TD<br>
 
 📝 **Testing**<br>
 Run the test pipeline to verify functionality:<br>
-```bash<br>
+
 python test_pipeline.py<br>
-```<br>
+
 
 🤝 **Contributing**<br>
 We welcome contributions! Please follow these steps:<br>
