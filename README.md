@@ -1,6 +1,3 @@
-# Software Architectures
-Video Analysis Web Application
-A comprehensive web application that analyzes video files to extract audio emotions, text sentiment, and other key insights using advanced AI models and a Flask-based interface.
 🎯 Project Overview
 This project provides a complete video analysis solution that combines modern web technologies with advanced AI models to derive valuable insights from video content. The application features a user-friendly interface, powerful analysis capabilities, and scalable architecture.
 ✨ Key Features
@@ -35,7 +32,8 @@ Python 3.10+
 
 Frontend
 
-HTML5, CSS3
+HTML5
+CSS3
 JavaScript (Modern ES6+)
 
 AI/ML Libraries
@@ -131,7 +129,26 @@ Download Results: Save analysis results for future reference
 
 
 🤖 AI Models Used
-ModelPurposeDescriptionWhisperSpeech-to-TextAdvanced speech-to-text conversionBERTweetSentiment AnalysisSocial media optimized sentiment analysisHuBERTAudio EmotionAudio emotion recognitionT5Text SummarizationText summarization with fallback strategies
+Whisper
+
+Purpose: Speech-to-Text
+Description: Advanced speech-to-text conversion
+
+BERTweet
+
+Purpose: Sentiment Analysis
+Description: Social media optimized sentiment analysis
+
+HuBERT
+
+Purpose: Audio Emotion
+Description: Audio emotion recognition
+
+T5
+
+Purpose: Text Summarization
+Description: Text summarization with fallback strategies
+
 
 🔄 Data Processing Pipeline
 mermaidgraph TD
