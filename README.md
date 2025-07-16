@@ -1,211 +1,227 @@
-🎯 Project Overview
-This project provides a complete video analysis solution that combines modern web technologies with advanced AI models to derive valuable insights from video content. The application features a user-friendly interface, powerful analysis capabilities, and scalable architecture.
-✨ Key Features
-🎥 Video Analysis Pipeline
+🎯 Project Overview<br>
+This project provides a complete video analysis solution that combines modern web technologies with advanced AI models to derive valuable insights from video content. The application features a user-friendly interface, powerful analysis capabilities, and scalable architecture.<br>
 
-Audio Extraction: Extracts and normalizes audio from video files
-Speech-to-Text: Utilizes OpenAI Whisper for accurate transcription
-Text Summarization: Implements T5 model with chunk-based processing
-Sentiment Analysis: Uses BERTweet model for emotion detection (Joy, Optimism, Anger, Sadness, Neutral)
-Audio Emotion Analysis: HuBERT model for emotion transition analysis
+✨ Key Features<br>
+🎥 Video Analysis Pipeline<br>
 
-🌐 Web Interface
+Audio Extraction: Extracts and normalizes audio from video files<br>
 
-File Upload: Drag-and-drop support for multiple video formats
-Real-time Tracking: Live status updates and progress visualization
-Interactive Results: Charts and detailed analysis reports
-Responsive Design: Modern UI/UX with Bootstrap integration
+Speech-to-Text: Utilizes OpenAI Whisper for accurate transcription<br>
 
-🔒 Security & Performance
+Text Summarization: Implements T5 model with chunk-based processing<br>
 
-File validation and secure handling
-Asynchronous processing with threading
-GPU support for accelerated processing
-Model caching and batch processing optimization
+Sentiment Analysis: Uses BERTweet model for emotion detection (Joy, Optimism, Anger, Sadness, Neutral)<br>
 
+Audio Emotion Analysis: HuBERT model for emotion transition analysis<br>
 
-🛠️ Technical Stack
-Backend
+🌐 Web Interface<br>
 
-Flask 2.3.3
-Python 3.10+
+File Upload: Drag-and-drop support for multiple video formats<br>
 
-Frontend
+Real-time Tracking: Live status updates and progress visualization<br>
 
-HTML5
-CSS3
-JavaScript (Modern ES6+)
+Interactive Results: Charts and detailed analysis reports<br>
 
-AI/ML Libraries
+Responsive Design: Modern UI/UX with Bootstrap integration<br>
 
-PyTorch 2.0.0+ - Deep learning framework
-Transformers 4.30.0+ - NLP models
-OpenAI Whisper 20231117 - Speech-to-text
-Librosa 0.10.0+ - Audio processing
-TextBlob 0.17.1+ - Text processing
+🔒 Security & Performance<br>
 
-Data Processing
+File validation and secure handling<br>
 
-NumPy 1.26.4+ - Numerical operations
-Pandas 2.0.0+ - Data analysis
-Matplotlib 3.7.0+ - Data visualization
-MoviePy 1.0.3+ - Video processing
+Asynchronous processing with threading<br>
 
+GPU support for accelerated processing<br>
 
-📁 Project Structure
-├── __pycache__/           # Python cache files
-├── results/               # Analysis results storage
-├── templates/             # HTML templates
-├── uploads/               # Uploaded video files
-├── app.py                 # Main Flask application
-├── audio.wav             # Sample audio file
-├── requirements.txt       # Python dependencies
-├── setup.sh              # Setup script
-├── tumkod.py             # Core analysis modules
-├── simplified_tumkod.py  # Simplified version
-├── test_pipeline.py      # Testing utilities
-└── various result files  # Analysis outputs
+Model caching and batch processing optimization<br>
 
-🚀 Installation & Setup
-System Requirements
+🛠️ Technical Stack<br>
+Backend<br>
 
-Python 3.10+
-FFmpeg (for video processing)
-Optional: CUDA-enabled GPU for acceleration
+Flask 2.3.3<br>
 
-Installation Steps
+Python 3.10+<br>
 
-Clone the repository
-bashgit clone https://github.com/Halilakca17/Software-Architectures.git
-cd Software-Architectures
+Frontend<br>
 
-Create virtual environment
-bashpython -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+HTML5<br>
 
-Install dependencies
-bashpip install -r requirements.txt
+CSS3<br>
 
-Run setup script (if available)
-bashchmod +x setup.sh
-./setup.sh
+JavaScript (Modern ES6+)<br>
 
-Launch the application
-bashpython app.py
+AI/ML Libraries<br>
 
-Access the application
-Open your browser and navigate to http://localhost:5000
+PyTorch 2.0.0+ - Deep learning framework<br>
 
+Transformers 4.30.0+ - NLP models<br>
 
-📊 Supported Features
-File Formats
+OpenAI Whisper 20231117 - Speech-to-text<br>
 
-Video: MP4, AVI, MOV, MKV, WEBM
-Maximum file size: 500MB
+Librosa 0.10.0+ - Audio processing<br>
 
-Analysis Capabilities
+TextBlob 0.17.1+ - Text processing<br>
 
-Audio Emotions: Real-time emotion detection and visualization
-Text Sentiment: Multi-category sentiment analysis with confidence scores
-Speech Transcription: Accurate speech-to-text conversion
-Content Summarization: Intelligent text summarization
-Progress Tracking: Real-time analysis status updates
+Data Processing<br>
 
-Output Formats
+NumPy 1.26.4+ - Numerical operations<br>
 
-Interactive charts and visualizations
-Detailed analysis reports
-Full transcripts
-Downloadable results
+Pandas 2.0.0+ - Data analysis<br>
 
+Matplotlib 3.7.0+ - Data visualization<br>
 
-🔧 Usage
+MoviePy 1.0.3+ - Video processing<br>
 
-Upload Video: Use the drag-and-drop interface to upload your video file
-Start Analysis: Click the analyze button to begin processing
-Monitor Progress: Watch real-time status updates and progress indicators
-View Results: Explore interactive charts and detailed analysis reports
-Download Results: Save analysis results for future reference
+📁 Project Structure<br>
+├── pycache/ # Python cache files<br>
+├── results/ # Analysis results storage<br>
+├── templates/ # HTML templates<br>
+├── uploads/ # Uploaded video files<br>
+├── app.py # Main Flask application<br>
+├── audio.wav # Sample audio file<br>
+├── requirements.txt # Python dependencies<br>
+├── setup.sh # Setup script<br>
+├── tumkod.py # Core analysis modules<br>
+├── simplified_tumkod.py # Simplified version<br>
+├── test_pipeline.py # Testing utilities<br>
+└── various result files # Analysis outputs<br>
 
+🚀 Installation & Setup<br>
+System Requirements<br>
 
-🤖 AI Models Used
-Whisper
+Python 3.10+<br>
 
-Purpose: Speech-to-Text
-Description: Advanced speech-to-text conversion
+FFmpeg (for video processing)<br>
 
-BERTweet
+Optional: CUDA-enabled GPU for acceleration<br>
 
-Purpose: Sentiment Analysis
-Description: Social media optimized sentiment analysis
+Installation Steps<br>
+1️⃣ Clone the repository<br>
 
-HuBERT
+bash<br>
+Kopyala
+Düzenle
+git clone https://github.com/Halilakca17/Software-Architectures.git<br>
+cd Software-Architectures<br>
+```<br>
+2️⃣ Create virtual environment<br>
+```bash<br>
+python -m venv venv<br>
+source venv/bin/activate  # On Windows: venv\Scripts\activate<br>
+```<br>
+3️⃣ Install dependencies<br>
+```bash<br>
+pip install -r requirements.txt<br>
+```<br>
+4️⃣ Run setup script (if available)<br>
+```bash<br>
+chmod +x setup.sh<br>
+./setup.sh<br>
+```<br>
+5️⃣ Launch the application<br>
+```bash<br>
+python app.py<br>
+```<br>
+6️⃣ Access the application<br>
+Open your browser and navigate to http://localhost:5000<br>
 
-Purpose: Audio Emotion
-Description: Audio emotion recognition
+📊 **Supported Features**<br>
+**File Formats**<br>
+- Video: MP4, AVI, MOV, MKV, WEBM<br>
+- Maximum file size: 500MB<br>
 
-T5
+**Analysis Capabilities**<br>
+- Audio Emotions: Real-time emotion detection and visualization<br>
+- Text Sentiment: Multi-category sentiment analysis with confidence scores<br>
+- Speech Transcription: Accurate speech-to-text conversion<br>
+- Content Summarization: Intelligent text summarization<br>
+- Progress Tracking: Real-time analysis status updates<br>
 
-Purpose: Text Summarization
-Description: Text summarization with fallback strategies
+**Output Formats**<br>
+- Interactive charts and visualizations<br>
+- Detailed analysis reports<br>
+- Full transcripts<br>
+- Downloadable results<br>
 
+🔧 **Usage**<br>
+- Upload Video: Use the drag-and-drop interface to upload your video file<br>
+- Start Analysis: Click the analyze button to begin processing<br>
+- Monitor Progress: Watch real-time status updates and progress indicators<br>
+- View Results: Explore interactive charts and detailed analysis reports<br>
+- Download Results: Save analysis results for future reference<br>
 
-🔄 Data Processing Pipeline
-mermaidgraph TD
-    A[Video Upload] --> B[Validation]
-    B --> C[Audio Extraction]
-    C --> D[Normalization]
-    D --> E[Transcription - Whisper]
-    E --> F[Text Summarization - T5]
-    F --> G[Sentiment Analysis - BERTweet]
-    G --> H[Audio Emotion Analysis - HuBERT]
-    H --> I[Results Visualization]
-    I --> J[Storage]
+🤖 **AI Models Used**<br>
+**Whisper**<br>
+- Purpose: Speech-to-Text<br>
+- Description: Advanced speech-to-text conversion<br>
 
-🚧 Future Enhancements
-Planned Features
+**BERTweet**<br>
+- Purpose: Sentiment Analysis<br>
+- Description: Social media optimized sentiment analysis<br>
 
- Multi-language support
- Advanced video analysis
- User account system
- API integration
- Mobile application
- Real-time analysis
- Custom model training
+**HuBERT**<br>
+- Purpose: Audio Emotion<br>
+- Description: Audio emotion recognition<br>
 
-Areas for Improvement
+**T5**<br>
+- Purpose: Text Summarization<br>
+- Description: Text summarization with fallback strategies<br>
 
- Model optimization
- Enhanced error handling
- UI/UX improvements
- Performance tuning
- Security updates
+🔄 **Data Processing Pipeline**<br>
+```mermaid<br>
+graph TD<br>
+    A[Video Upload] --> B[Validation]<br>
+    B --> C[Audio Extraction]<br>
+    C --> D[Normalization]<br>
+    D --> E[Transcription - Whisper]<br>
+    E --> F[Text Summarization - T5]<br>
+    F --> G[Sentiment Analysis - BERTweet]<br>
+    G --> H[Audio Emotion Analysis - HuBERT]<br>
+    H --> I[Results Visualization]<br>
+    I --> J[Storage]<br>
+```<br>
 
+🚧 **Future Enhancements**<br>
+**Planned Features**<br>
+- Multi-language support<br>
+- Advanced video analysis<br>
+- User account system<br>
+- API integration<br>
+- Mobile application<br>
+- Real-time analysis<br>
+- Custom model training<br>
 
-📝 Testing
-Run the test pipeline to verify functionality:
-bashpython test_pipeline.py
+**Areas for Improvement**<br>
+- Model optimization<br>
+- Enhanced error handling<br>
+- UI/UX improvements<br>
+- Performance tuning<br>
+- Security updates<br>
 
-🤝 Contributing
-We welcome contributions! Please follow these steps:
+📝 **Testing**<br>
+Run the test pipeline to verify functionality:<br>
+```bash<br>
+python test_pipeline.py<br>
+```<br>
 
-Fork the repository
-Create a feature branch (git checkout -b feature/amazing-feature)
-Make your changes
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Submit a pull request
+🤝 **Contributing**<br>
+We welcome contributions! Please follow these steps:<br>
+1️⃣ Fork the repository<br>
+2️⃣ Create a feature branch (git checkout -b feature/amazing-feature)<br>
+3️⃣ Make your changes<br>
+4️⃣ Commit your changes (git commit -m 'Add some amazing feature')<br>
+5️⃣ Push to the branch (git push origin feature/amazing-feature)<br>
+6️⃣ Submit a pull request<br>
 
+📄 **License**<br>
+This project is open source. Please refer to the repository for license details.<br>
 
-📄 License
-This project is open source. Please refer to the repository for license details.
+📞 **Support**<br>
+For issues and questions, please visit the GitHub repository and create an issue.<br>
 
-📞 Support
-For issues and questions, please visit the GitHub repository and create an issue.
+🌟 **Acknowledgments**<br>
+- OpenAI for the Whisper model<br>
+- Hugging Face for the Transformers library<br>
+- The PyTorch team for the deep learning framework<br>
+- All contributors and supporters of this project<br>
 
-🌟 Acknowledgments
-
-OpenAI for the Whisper model
-Hugging Face for the Transformers library
-The PyTorch team for the deep learning framework
-All contributors and supporters of this project
+---
