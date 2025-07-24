@@ -37,6 +37,10 @@ This project provides a complete video analysis solution that combines modern we
 
 ---
 
+## 🎯 Pull Request Denemesi
+
+Bu satır, örnek bir pull requesttir.
+
 ## **🛠️ Technical Stack**
 
 ### Backend
